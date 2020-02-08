@@ -17,9 +17,12 @@ KintoHub is a all-in-one platform to deploy your full stack application (website
 7. Hit the `Create` button
 8. You're now good to build! The build will start automatically. Once complete, Click `Deploy now` on top right and then `New Project`.
 9. Scroll to "KintoBlocks" section and in the Search Box, type "mysql" and select it to add a MySQL Database.
-10. Click `Create New Project` at bottom right
+10. Click on the cog next to the "mysql" block. And set `wordpress` for `db.user`, `db.password` and `db.name`.
+11. Click `Create New Project` at bottom right
 
 The deployment can take up to 3 minutes. Once successful, click `Open URL` on the Worpress Block under "KintoBlocks" section.
+
+_Notes: you are not forced to use `wordpress` for username, password and database. If you want to change them, you must add and modify the environment variables of your "wordpress" kintoblock accordingly._
 
 ## Installation & Local Run
 
